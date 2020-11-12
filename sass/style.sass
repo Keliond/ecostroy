@@ -70,7 +70,8 @@ body.lock
  &-gallery
   margin-bottom: 50px
  &-title
-  padding: 50px 0px 
+  padding: 50px 0px
+  text-align: center
 // HEADER
 
 .header
@@ -216,27 +217,7 @@ body.lock
     font-size: 39px
     @media screen and ( max-width: 320px )
      font-size: 35px
-     margin-bottom: 30px     
- &-subtitle
-  font-family: 'MontserratRegular', sans-serif
-  font-weight: 400
-  font-size: 24px
-  color: #ffffff
-  margin-bottom: 60px
-  @media screen and ( max-width: 1200px )
-   font-size: 19px
-   @media screen and ( max-width: 320px )
-    font-size: 16px
-    margin-bottom: 30px  
-  img
-   width: 16px
-   height: 16px
-   @media screen and ( max-width: 1200px )
-    width: 14px
-    height: 14px
-    @media screen and ( max-width: 320px )
-     width: 12px
-     height: 12px 
+     margin-bottom: 30px 
  &__services
   display: flex
   flex-wrap: wrap
@@ -250,8 +231,18 @@ body.lock
     @media screen and ( max-width: 425px )
      margin-right: 0
      margin-bottom: 10px 
-      
-
+ &__advantages
+  margin-bottom: 40px
+  &-item
+   display: flex
+   align-items: center
+   color: #ffffff
+   margin-bottom: 20px
+   font-size: 21px
+   img
+    margin-right: 9px
+    width: 30px
+    height: 30px
 // PROJECTS
 
 .projects
